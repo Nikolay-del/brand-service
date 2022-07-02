@@ -1,0 +1,12 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: rem(24px) 0;
+  margin-bottom: rem(50px);
+}
+
+.header__sandwich {
+  width: 25px;
+  height: 15px;
+  margin-right: rem(3px);
+}

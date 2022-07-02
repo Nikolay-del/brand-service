@@ -1,0 +1,13 @@
+@mixin h2 {
+  font-size: rem(18px);
+  font-weight: 700;
+  line-height: 135%;
+  color: $black;
+}
+
+@mixin p {
+  font-size: rem(15px);
+  font-weight: 500;
+  line-height: 135%;
+  color: $black;
+}

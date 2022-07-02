@@ -1,0 +1,47 @@
+.main-nav {
+  margin: 0 rem(10px);
+}
+
+.main-nav__heading {
+  margin: 0 0 rem(30px);
+
+  @include h2();
+}
+
+.main-nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.main-nav__link {
+  text-decoration: none;
+
+  @include p();
+}
+
+.main-nav__phone {
+  margin-bottom: rem(25px);
+
+  a {
+    display: block;
+    margin-bottom: rem(5px);
+
+    text-decoration: none;
+    font-size: rem(18px);
+    line-height: 165%;
+    font-weight: 600;
+    color: $pink;
+  }
+}
+
+.main-nav__schedule {
+  margin: 0;
+
+  font-size: rem(18px);
+  line-height: 165%;
+  font-weight: 500;
+  color: $gray;
+}
