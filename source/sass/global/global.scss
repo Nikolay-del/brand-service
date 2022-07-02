@@ -40,9 +40,24 @@ img {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 rem(10px);
 
   @media (min-width: $tablet-width) {
-    padding: 0 50px;
+    padding: 0 rem(50px);
   }
+}
+
+.main-btn {
+  display: block;
+  padding: rem(16px) 0;
+
+  background: $pink;
+  box-shadow: rem(0 0 30px) rgba(0, 133, 255, 0.25);
+
+  font-size: rem(15px);
+  line-height: rem(18px);
+  font-weight: 700;
+  color: $white;
+  text-decoration: none;
+  text-align: center;
 }

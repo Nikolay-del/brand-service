@@ -1,8 +1,9 @@
 .header__container {
+  position: relative;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: rem(24px) 0;
-  margin-bottom: rem(50px);
 }
 
 .header__sandwich {
